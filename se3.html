@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>University of North Texas</title>
+    <style>
+        /* Add your custom styles here */
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About UNT</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the University of North Texas</h1>
+        <p>Your path to success begins here.</p>
+    </header>
+
+    <!-- Marquee Elements -->
+    <div class="marquee">
+        This is a marquee element.
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <input type="text" placeholder="Subscribe to our newsletter">
+        <p>Contact us: info@unt.edu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
